@@ -25,6 +25,11 @@
   margin: 0;
 }
 
+.navbar .logo a {
+  text-decoration: none;
+  color: #000;
+}
+
 .menu_items {
   display: flex;
   align-items: center;
