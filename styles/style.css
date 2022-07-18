@@ -1,93 +1,89 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 /* header start */
 
-
 /* navbar start */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
 }
 
 .navbar .logo {
-    font-weight: 700;
-font-size: 24px;
-margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
 }
 
-.menu_items{
-    display: flex;
-    align-items: center;
+.menu_items {
+  display: flex;
+  align-items: center;
 }
 
 .menu_items li {
-    list-style: none;
-    padding: 0 15px;
+  list-style: none;
+  padding: 0 15px;
 }
 
 .menu_items li a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    font-size: 16px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .menu_items li i {
-
-   cursor: pointer;
+  cursor: pointer;
 }
 
 /* navbar end */
 
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 500px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 500px;
 }
 
 .banner_info h1 {
-    font-weight: 700;
-font-size: 52px;
-line-height: 70px;
-margin: 0;
-
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  margin: 0;
 }
 
 .banner_info p {
-    font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-margin: 5px 0 16px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 5px 0 16px 0;
 }
 
 .banner_info a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #E02C6D;
-    padding: 10px 24px;
-    border-radius: 41px;
-    display: inline-block;
-    font-weight: 700;
-font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 41px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .banner_img {
-    background-image: url("/images/banner-img-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-image: url("/images/banner-img-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* header end */
