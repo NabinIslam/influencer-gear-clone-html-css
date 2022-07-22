@@ -14,7 +14,9 @@ html {
   margin: 0 auto;
 }
 
-html { scroll-behavior: smooth: }
+html {
+  scroll-behavior: smooth;
+}
 
 /* header start */
 
